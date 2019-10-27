@@ -1,6 +1,35 @@
-body div img{
+#pqp img{
     margin: 10em 1em 1em 22em;
 }
 body{
     background-color: #000000;
+}
+.imglink img{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.menu ul li{
+    display: inline-block;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    text-transform: uppercase;
+    padding: 5em 2em 5em 2em;
+}
+.menu ul li a{
+    text-decoration: none; 
+}
+header{
+    display: flex;
+}
+.menu ul{
+    margin-left: 10em;
+    
+}
+.menu ul li:hover{
+    color: #ffffff;
+    border: 2px solid #2247ec;
+
 }
